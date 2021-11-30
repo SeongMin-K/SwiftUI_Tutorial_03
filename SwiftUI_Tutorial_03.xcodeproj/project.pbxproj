@@ -11,6 +11,11 @@
 		3E99DF4E2756405300179D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF4D2756405300179D8C /* ContentView.swift */; };
 		3E99DF502756405400179D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E99DF4F2756405400179D8C /* Assets.xcassets */; };
 		3E99DF532756405400179D8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E99DF522756405400179D8C /* Preview Assets.xcassets */; };
+		3E99DF5A275640E400179D8C /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF59275640E400179D8C /* MyButtonStyle.swift */; };
+		3E99DF5C2756463E00179D8C /* MyShrinkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF5B2756463E00179D8C /* MyShrinkButtonStyle.swift */; };
+		3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF5D2756478900179D8C /* MySpinButtonStyle.swift */; };
+		3E99DF602756484000179D8C /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF5F2756484000179D8C /* MyBlurButtonStyle.swift */; };
+		3E99DF6327564B8200179D8C /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		3E99DF4D2756405300179D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E99DF4F2756405400179D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E99DF522756405400179D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E99DF59275640E400179D8C /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		3E99DF5B2756463E00179D8C /* MyShrinkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShrinkButtonStyle.swift; sourceTree = "<group>"; };
+		3E99DF5D2756478900179D8C /* MySpinButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpinButtonStyle.swift; sourceTree = "<group>"; };
+		3E99DF5F2756484000179D8C /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
+		3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		3E99DF4A2756405300179D8C /* SwiftUI_Tutorial_03 */ = {
 			isa = PBXGroup;
 			children = (
+				3E99DF6127564B5000179D8C /* ButtonStyle */,
 				3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */,
 				3E99DF4D2756405300179D8C /* ContentView.swift */,
 				3E99DF4F2756405400179D8C /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				3E99DF522756405400179D8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E99DF6127564B5000179D8C /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				3E99DF59275640E400179D8C /* MyButtonStyle.swift */,
+				3E99DF5B2756463E00179D8C /* MyShrinkButtonStyle.swift */,
+				3E99DF5D2756478900179D8C /* MySpinButtonStyle.swift */,
+				3E99DF5F2756484000179D8C /* MyBlurButtonStyle.swift */,
+				3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */,
+			);
+			path = ButtonStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E99DF6327564B8200179D8C /* CustomButtonStyleView.swift in Sources */,
+				3E99DF5A275640E400179D8C /* MyButtonStyle.swift in Sources */,
 				3E99DF4E2756405300179D8C /* ContentView.swift in Sources */,
+				3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */,
+				3E99DF5C2756463E00179D8C /* MyShrinkButtonStyle.swift in Sources */,
+				3E99DF602756484000179D8C /* MyBlurButtonStyle.swift in Sources */,
 				3E99DF4C2756405300179D8C /* SwiftUI_Tutorial_03App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
