@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E40A62C2757886D007F3894 /* MyTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E40A62B2757886D007F3894 /* MyTextFieldView.swift */; };
 		3E99DF4C2756405300179D8C /* SwiftUI_Tutorial_03App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */; };
 		3E99DF4E2756405300179D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF4D2756405300179D8C /* ContentView.swift */; };
 		3E99DF502756405400179D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E99DF4F2756405400179D8C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E40A62B2757886D007F3894 /* MyTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextFieldView.swift; sourceTree = "<group>"; };
 		3E99DF482756405300179D8C /* SwiftUI_Tutorial_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Tutorial_03App.swift; sourceTree = "<group>"; };
 		3E99DF4D2756405300179D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E40A62A27578846007F3894 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3E40A62B2757886D007F3894 /* MyTextFieldView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		3E99DF3F2756405300179D8C = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		3E99DF4A2756405300179D8C /* SwiftUI_Tutorial_03 */ = {
 			isa = PBXGroup;
 			children = (
+				3E40A62A27578846007F3894 /* TextField */,
 				3E99DF6127564B5000179D8C /* ButtonStyle */,
 				3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */,
 				3E99DF4D2756405300179D8C /* ContentView.swift */,
@@ -162,6 +173,7 @@
 			files = (
 				3E99DF6327564B8200179D8C /* CustomButtonStyleView.swift in Sources */,
 				3E99DF5A275640E400179D8C /* MyButtonStyle.swift in Sources */,
+				3E40A62C2757886D007F3894 /* MyTextFieldView.swift in Sources */,
 				3E99DF4E2756405300179D8C /* ContentView.swift in Sources */,
 				3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */,
 				3E99DF5C2756463E00179D8C /* MyShrinkButtonStyle.swift in Sources */,

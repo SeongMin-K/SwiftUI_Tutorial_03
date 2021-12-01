@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CustomButtonStyleView()
+        NavigationView {
+            VStack {
+                CustomButtonStyleView()
+                Spacer()
+                HStack {
+                    Spacer()
+                    NavigationLink(destination: MyTextFieldView()) {
+                        Image(systemName: "t.square")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(Color.black)
+                    }
+                }.padding(.horizontal)
+            }
+        }
     }
 }
 
