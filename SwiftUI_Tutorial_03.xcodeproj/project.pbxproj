@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1F36892758E3C20038A0CF /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1F36882758E3C20038A0CF /* PopupView */; };
+		3E1F368C2758E4140038A0CF /* MyPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F368B2758E4140038A0CF /* MyPopupView.swift */; };
+		3E1F368E275910E50038A0CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F368D275910E50038A0CF /* Extensions.swift */; };
 		3E40A62C2757886D007F3894 /* MyTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E40A62B2757886D007F3894 /* MyTextFieldView.swift */; };
 		3E99DF4C2756405300179D8C /* SwiftUI_Tutorial_03App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */; };
 		3E99DF4E2756405300179D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF4D2756405300179D8C /* ContentView.swift */; };
@@ -20,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1F368B2758E4140038A0CF /* MyPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPopupView.swift; sourceTree = "<group>"; };
+		3E1F368D275910E50038A0CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3E40A62B2757886D007F3894 /* MyTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextFieldView.swift; sourceTree = "<group>"; };
 		3E99DF482756405300179D8C /* SwiftUI_Tutorial_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Tutorial_03App.swift; sourceTree = "<group>"; };
@@ -38,12 +43,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1F36892758E3C20038A0CF /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1F368A2758E3DC0038A0CF /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F368B2758E4140038A0CF /* MyPopupView.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
 		3E40A62A27578846007F3894 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +85,12 @@
 		3E99DF4A2756405300179D8C /* SwiftUI_Tutorial_03 */ = {
 			isa = PBXGroup;
 			children = (
+				3E1F368A2758E3DC0038A0CF /* Popup */,
 				3E40A62A27578846007F3894 /* TextField */,
 				3E99DF6127564B5000179D8C /* ButtonStyle */,
 				3E99DF4B2756405300179D8C /* SwiftUI_Tutorial_03App.swift */,
 				3E99DF4D2756405300179D8C /* ContentView.swift */,
+				3E1F368D275910E50038A0CF /* Extensions.swift */,
 				3E99DF4F2756405400179D8C /* Assets.xcassets */,
 				3E99DF512756405400179D8C /* Preview Content */,
 			);
@@ -117,6 +133,9 @@
 			dependencies = (
 			);
 			name = SwiftUI_Tutorial_03;
+			packageProductDependencies = (
+				3E1F36882758E3C20038A0CF /* PopupView */,
+			);
 			productName = SwiftUI_Tutorial_03;
 			productReference = 3E99DF482756405300179D8C /* SwiftUI_Tutorial_03.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 3E99DF3F2756405300179D8C;
+			packageReferences = (
+				3E1F36872758E3C20038A0CF /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 3E99DF492756405300179D8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,8 +195,10 @@
 			files = (
 				3E99DF6327564B8200179D8C /* CustomButtonStyleView.swift in Sources */,
 				3E99DF5A275640E400179D8C /* MyButtonStyle.swift in Sources */,
+				3E1F368C2758E4140038A0CF /* MyPopupView.swift in Sources */,
 				3E40A62C2757886D007F3894 /* MyTextFieldView.swift in Sources */,
 				3E99DF4E2756405300179D8C /* ContentView.swift in Sources */,
+				3E1F368E275910E50038A0CF /* Extensions.swift in Sources */,
 				3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */,
 				3E99DF5C2756463E00179D8C /* MyShrinkButtonStyle.swift in Sources */,
 				3E99DF602756484000179D8C /* MyBlurButtonStyle.swift in Sources */,
@@ -381,6 +405,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E1F36872758E3C20038A0CF /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E1F36882758E3C20038A0CF /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1F36872758E3C20038A0CF /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E99DF402756405300179D8C /* Project object */;
 }

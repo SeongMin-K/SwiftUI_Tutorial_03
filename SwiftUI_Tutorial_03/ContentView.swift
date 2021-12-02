@@ -21,7 +21,15 @@ struct ContentView: View {
                             .frame(width: 50, height: 50)
                             .foregroundColor(Color.black)
                     }
-                }.padding(.horizontal)
+                    NavigationLink(destination: MyPopupView()) {
+                        Image(systemName: "p.square")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(Color.black)
+                    }
+                }
+                .padding(.horizontal)
+                .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 10 : 0)
             }
         }
     }
