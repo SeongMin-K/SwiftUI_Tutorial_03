@@ -27,6 +27,12 @@ struct ContentView: View {
                             .frame(width: 50, height: 50)
                             .foregroundColor(Color.black)
                     }
+                    NavigationLink(destination: MyPickerView()) {
+                        Image(systemName: "p.circle")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(Color.red)
+                    }
                 }
                 .padding(.horizontal)
                 .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 10 : 0)

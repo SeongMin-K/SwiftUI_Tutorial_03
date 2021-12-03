@@ -20,6 +20,7 @@
 		3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF5D2756478900179D8C /* MySpinButtonStyle.swift */; };
 		3E99DF602756484000179D8C /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF5F2756484000179D8C /* MyBlurButtonStyle.swift */; };
 		3E99DF6327564B8200179D8C /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */; };
+		3EB866A52759FF46002409FE /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB866A42759FF46002409FE /* MyPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3E99DF5D2756478900179D8C /* MySpinButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpinButtonStyle.swift; sourceTree = "<group>"; };
 		3E99DF5F2756484000179D8C /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
 		3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
+		3EB866A42759FF46002409FE /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		3E99DF4A2756405300179D8C /* SwiftUI_Tutorial_03 */ = {
 			isa = PBXGroup;
 			children = (
+				3EB866A32759FF23002409FE /* Picker */,
 				3E1F368A2758E3DC0038A0CF /* Popup */,
 				3E40A62A27578846007F3894 /* TextField */,
 				3E99DF6127564B5000179D8C /* ButtonStyle */,
@@ -115,6 +118,14 @@
 				3E99DF6227564B8200179D8C /* CustomButtonStyleView.swift */,
 			);
 			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		3EB866A32759FF23002409FE /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				3EB866A42759FF46002409FE /* MyPickerView.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 				3E1F368C2758E4140038A0CF /* MyPopupView.swift in Sources */,
 				3E40A62C2757886D007F3894 /* MyTextFieldView.swift in Sources */,
 				3E99DF4E2756405300179D8C /* ContentView.swift in Sources */,
+				3EB866A52759FF46002409FE /* MyPickerView.swift in Sources */,
 				3E1F368E275910E50038A0CF /* Extensions.swift in Sources */,
 				3E99DF5E2756478900179D8C /* MySpinButtonStyle.swift in Sources */,
 				3E99DF5C2756463E00179D8C /* MyShrinkButtonStyle.swift in Sources */,
